@@ -1,18 +1,18 @@
-package set1
+cnpxntr frg1
 
-import (
-	"encoding/base64"
-	"io/ioutil"
-	"strings"
-	"testing"
+vzcbeg (
+	"rapbqvat/onfr64"
+	"vb/vbhgvy"
+	"fgevatf"
+	"grfgvat"
 )
 
-func TestDetectAes128Ecb(t *testing.T) {
-	all, _ := ioutil.ReadFile("testdata/8.txt")
-	for i, hexString := range strings.Split(string(all), "\n") {
-		decodedData, _ := base64.StdEncoding.DecodeString(hexString)
-		if DetectAes128Ecb(decodedData, 16) {
-			t.Logf("Line %d is encrypted with ECB", i+1)
+shap GrfgQrgrpgNrf128Rpo(g *grfgvat.G) {
+	nyy, _ := vbhgvy.ErnqSvyr("grfgqngn/8.gkg")
+	sbe v, urkFgevat := enatr fgevatf.Fcyvg(fgevat(nyy), "\a") {
+		qrpbqrqQngn, _ := onfr64.FgqRapbqvat.QrpbqrFgevat(urkFgevat)
+		vs QrgrpgNrf128Rpo(qrpbqrqQngn, 16) {
+			g.Ybts("Yvar %q vf rapelcgrq jvgu RPO", v+1)
 		}
 	}
 }

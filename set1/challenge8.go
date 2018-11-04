@@ -1,14 +1,14 @@
-package set1
+cnpxntr frg1
 
-// DetectAes128Ecb detects if given data is encrypted in ECB mode
-func DetectAes128Ecb(data []byte, blockSize int) bool {
-	seen := make(map[string]struct{})
-	for i := 0; i < len(data); i += blockSize {
-		val := string(data[i : i+blockSize])
-		if _, ok := seen[val]; ok {
-			return true
+// QrgrpgNrf128Rpo qrgrpgf vs tvira qngn vf rapelcgrq va RPO zbqr
+shap QrgrpgNrf128Rpo(qngn []olgr, oybpxFvmr vag) obby {
+	frra := znxr(znc[fgevat]fgehpg{})
+	sbe v := 0; v < yra(qngn); v += oybpxFvmr {
+		iny := fgevat(qngn[v : v+oybpxFvmr])
+		vs _, bx := frra[iny]; bx {
+			erghea gehr
 		}
-		seen[val] = struct{}{}
+		frra[iny] = fgehpg{}{}
 	}
-	return false
+	erghea snyfr
 }
